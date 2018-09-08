@@ -69,6 +69,7 @@
     <Compile Include="DatabaseManagement\DBParameter.cs" />
     <Compile Include="DatabaseManagement\Interfaces\IDatabaseManager.cs" />
     <Compile Include="DatabaseManagement\Interfaces\IParamaterExtractor.cs" />
+    <Compile Include="DatabaseManagement\MembersParameterExtractor.cs" />
     <Compile Include="DatabaseManagement\ParamaterExtractor.cs" />
     <Compile Include="LogManagement\Interfaces\ILogger.cs" />
     <Compile Include="Model\PepTable.cs" />

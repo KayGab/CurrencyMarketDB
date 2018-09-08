@@ -18,7 +18,9 @@ namespace PepCore.PepConversion
             {
                 var cols = new List<string>();
                 for (var i = 0; i < reader.FieldCount; i++)
+                {
                     cols.Add(reader.GetName(i));
+                }
                 pepTable.Columns = cols;
 
                 var rows = new List<List<object>>();
@@ -30,7 +32,6 @@ namespace PepCore.PepConversion
             }
             catch (Exception ex)
             {
-
                 pepTable.Errors = errors;
             }
            
@@ -41,7 +42,9 @@ namespace PepCore.PepConversion
         {
             var result = new List<object>();
             foreach (var col in cols)
+            {
                 result.Add(reader[col]);
+            }
             return result;
         }
     }

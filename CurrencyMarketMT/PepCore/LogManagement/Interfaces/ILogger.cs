@@ -8,5 +8,7 @@ namespace PepCore.LogManagement
 {
     public interface ILogger
     {
+        void Failure(Exception exception, string context);
+        void Info(string information);
     }
 }

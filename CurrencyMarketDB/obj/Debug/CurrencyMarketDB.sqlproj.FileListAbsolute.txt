@@ -1,0 +1,9 @@
+C:\Future\CurrencyMarket\CurrencyMarketDB\bin\Debug\CurrencyMarketDB.dacpac
+C:\Future\CurrencyMarket\CurrencyMarketDB\bin\Debug\CurrencyMarketDB.dll
+C:\Future\CurrencyMarket\CurrencyMarketDB\bin\Debug\CurrencyMarketDB.pdb
+C:\Future\CurrencyMarket\CurrencyMarketDB\obj\Debug\CurrencyMarketDB.dll
+C:\Future\CurrencyMarket\CurrencyMarketDB\obj\Debug\CurrencyMarketDB.pdb
+C:\Future\CurrencyMarket\CurrencyMarketDB\obj\Debug\Model.xml
+C:\Future\CurrencyMarket\CurrencyMarketDB\obj\Debug\refactor.xml
+C:\Future\CurrencyMarket\CurrencyMarketDB\obj\Debug\postdeploy.sql
+C:\Future\CurrencyMarket\CurrencyMarketDB\obj\Debug\predeploy.sql

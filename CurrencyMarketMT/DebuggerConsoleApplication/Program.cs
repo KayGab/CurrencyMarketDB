@@ -15,7 +15,7 @@ namespace DebuggerConsoleApplication
         static void Main(string[] args)
         {
             IDatabaseManager mgr = new DatabaseManager(null, new ConnectionManager(new ConfigurationService()),
-                                                       new DatabaseExecutor(null), new ParamaterExtractor());
+                                                       new DatabaseExecutor(null), new MembersParameterExtractor());
 
             mgr.GetDataAsync("MarketDBConn", "[MarketAdministrator].[GetTestData]", null).Wait();
             Console.WriteLine("finished");

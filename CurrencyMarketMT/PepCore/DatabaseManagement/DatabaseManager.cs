@@ -16,14 +16,16 @@ namespace PepCore.DatabaseManagement
 {
     public class DatabaseManager : IDatabaseManager
     {
-        public DatabaseManager(ILogger iLogger, IConnectionManager iconnectionManager, IDatabaseExecutor iDatabaseExecutor, IParamaterExtractor iParameterExtractor)
+        public DatabaseManager(ILogger iLogger, IConnectionManager iconnectionManager,
+            IDatabaseExecutor iDatabaseExecutor, IParamaterExtractor iParameterExtractor)
               : base(iLogger, iconnectionManager, iDatabaseExecutor, iParameterExtractor) { }
 
-        public async override Task<PepTable> GetDataAsync(string connectionStringName, string procedureName, JObject parameters)
+        public async override Task<PepTable> GetDataAsync(string connectionStringName,
+            string procedureName, JObject parameters)
         {
             DbConnection connection = null;
             SqlDataReader readerResponse = null;
-            PepTable table = null;
+            PepTable table = new PepTable();
             try
             {
                 connection = this.GetConnection(connectionStringName);
@@ -37,13 +39,32 @@ namespace PepCore.DatabaseManagement
                 readerResponse = await this.iDatabaseExecutor.ExecuteAsync(dbParams).ConfigureAwait(false);
                 table = PepMaker.MakeTableFromReader(readerResponse);
             }
+            catch (Exception ex)
+            {
+                table.Errors = new List<string>{ ex.ToString()};
+                iLogger.Failure(ex, "");
+            }
             finally
             {
-                if (!readerResponse.IsClosed)
-                    readerResponse.Close();
+                try
+                {
+                    if (!readerResponse.IsClosed)
+                    {
+                        readerResponse.Close();
+                    }
+                }
+                catch (Exception) { }
 
-                if (connection.State != ConnectionState.Closed)
-                    connection.Close();
+                try
+                {
+                    if (connection.State != ConnectionState.Closed)
+                    {
+                        connection.Close();
+                    }
+                }
+                catch (Exception)
+                {
+                }
             }
 
             return table;

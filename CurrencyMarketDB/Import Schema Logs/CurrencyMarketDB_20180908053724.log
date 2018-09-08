@@ -1,0 +1,85 @@
+9/7/2018 10:37:24 PM	This log contains information about the import schema operation into project 'CurrencyMarketDB' on computer 'OLOTUBU-1106' by user 'olotubu'.
+9/7/2018 10:37:25 PM	Import of database schema has started.
+9/7/2018 10:37:35 PM	Gathering database credentials
+9/7/2018 10:37:35 PM	Gathering database options
+9/7/2018 10:37:35 PM	Gathering generic database scoped configuration option
+9/7/2018 10:37:35 PM	Gathering users
+9/7/2018 10:37:35 PM	Gathering roles
+9/7/2018 10:37:35 PM	Gathering application roles
+9/7/2018 10:37:35 PM	Gathering role memberships
+9/7/2018 10:37:35 PM	Gathering filegroups
+9/7/2018 10:37:35 PM	Gathering full-text catalogs
+9/7/2018 10:37:35 PM	Gathering assemblies
+9/7/2018 10:37:35 PM	Gathering certificates
+9/7/2018 10:37:35 PM	Gathering asymmetric keys
+9/7/2018 10:37:35 PM	Gathering symmetric keys
+9/7/2018 10:37:35 PM	Gathering encrypted symmetric keys
+9/7/2018 10:37:35 PM	Gathering schemas
+9/7/2018 10:37:35 PM	Gathering XML schema collections
+9/7/2018 10:37:35 PM	Gathering user-defined data types
+9/7/2018 10:37:35 PM	Gathering user-defined types
+9/7/2018 10:37:35 PM	Gathering table types
+9/7/2018 10:37:35 PM	Gathering unique keys for table types
+9/7/2018 10:37:35 PM	Gathering primary keys for table types
+9/7/2018 10:37:35 PM	Gathering indexes for table types
+9/7/2018 10:37:35 PM	Gathering check constraints for table types
+9/7/2018 10:37:35 PM	Gathering default constraints for table types
+9/7/2018 10:37:35 PM	Gathering partition functions
+9/7/2018 10:37:35 PM	Gathering partition schemes
+9/7/2018 10:37:35 PM	Gathering functions
+9/7/2018 10:37:35 PM	Gathering encrypted functions
+9/7/2018 10:37:35 PM	Gathering aggregates
+9/7/2018 10:37:35 PM	Gathering procedures
+9/7/2018 10:37:35 PM	Gathering encrypted procedures
+9/7/2018 10:37:35 PM	Gathering tables
+9/7/2018 10:37:35 PM	Gathering primary keys
+9/7/2018 10:37:35 PM	Gathering unique constraints
+9/7/2018 10:37:35 PM	Gathering foreign keys
+9/7/2018 10:37:35 PM	Gathering default constraints
+9/7/2018 10:37:36 PM	Gathering check constraints
+9/7/2018 10:37:36 PM	Gathering views
+9/7/2018 10:37:36 PM	Gathering encrypted views
+9/7/2018 10:37:36 PM	Gathering indexes
+9/7/2018 10:37:36 PM	Gathering statistics
+9/7/2018 10:37:36 PM	Gathering full-text index stoplists
+9/7/2018 10:37:36 PM	Gathering search property lists
+9/7/2018 10:37:36 PM	Gathering search properties
+9/7/2018 10:37:36 PM	Gathering full-text indexes
+9/7/2018 10:37:36 PM	Gathering column store indexes
+9/7/2018 10:37:36 PM	Gathering spatial indexes
+9/7/2018 10:37:36 PM	Gathering XML indexes
+9/7/2018 10:37:36 PM	Gathering Selective XML indexes
+9/7/2018 10:37:36 PM	Gathering encrypted triggers
+9/7/2018 10:37:36 PM	Gathering triggers
+9/7/2018 10:37:36 PM	Gathering encrypted and clr ddl triggers
+9/7/2018 10:37:36 PM	Gathering ddl triggers
+9/7/2018 10:37:36 PM	Gathering synonyms
+9/7/2018 10:37:36 PM	Gathering defaults
+9/7/2018 10:37:36 PM	Gathering data constraint uddt bindings
+9/7/2018 10:37:36 PM	Gathering rules
+9/7/2018 10:37:36 PM	Gathering data constraint uddt bindings
+9/7/2018 10:37:36 PM	Gathering message types
+9/7/2018 10:37:36 PM	Gathering queues
+9/7/2018 10:37:36 PM	Gathering contracts
+9/7/2018 10:37:36 PM	Gathering services
+9/7/2018 10:37:36 PM	Gathering event notifications
+9/7/2018 10:37:36 PM	Gathering remote service bindings
+9/7/2018 10:37:36 PM	Gathering broker priorities
+9/7/2018 10:37:36 PM	Gathering signatures
+9/7/2018 10:37:36 PM	Gathering data compression options
+9/7/2018 10:37:36 PM	Gathering sequence types
+9/7/2018 10:37:36 PM	Gathering security policies
+9/7/2018 10:37:36 PM	Gather column encryption keys
+9/7/2018 10:37:36 PM	Gathering column master keys
+9/7/2018 10:37:36 PM	Gathering external data sources
+9/7/2018 10:37:36 PM	Gathering external file formats
+9/7/2018 10:37:36 PM	Gathering external tables
+9/7/2018 10:37:36 PM	Gathering extended properties
+9/7/2018 10:37:37 PM	Gathering credentials
+9/7/2018 10:37:37 PM	Gathering logins
+9/7/2018 10:37:37 PM	Gathering server audits
+9/7/2018 10:37:38 PM	Scanning project for duplicate elements
+9/7/2018 10:37:38 PM	Finished duplicate element processing
+9/7/2018 10:37:39 PM	Finished importing database.
+9/7/2018 10:37:39 PM	A summary of the import was saved to the following location: C:\Future\CurrencyMarket\CurrencyMarketDB\Import Schema Logs\CurrencyMarketDB_20180908053724.log
+9/7/2018 10:37:39 PM	Click Finish to continue...
